@@ -61,7 +61,20 @@
             object-fit:cover;
             border-radius:12px;
             border:3px solid gold;
-            margin:10px;
+            .gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+    margin-top:20px;
+}
+
+.gallery img{
+    width:220px;
+    height:220px;
+    object-fit:cover;
+    border-radius:10px;
+}
         }
 
         .footer{
@@ -144,7 +157,23 @@
         <img src="cut1.jpg">
         <img src="cut2.jpg">
         <img src="shop.jpg">
-        
+      <div class="section">
+
+    <h2 style="color:gold;">Gallery</h2>
+
+    <div class="gallery">
+
+        <img src="style1.jpg" alt="Style 1">
+
+        <img src="style2.jpg" alt="Style 2">
+
+        <img src="style3.jpg" alt="Style 3">
+
+        <img src="style4.jpg" alt="Style 4">
+
+    </div>
+
+</div>  
         
 </div>
 <h2 style="color:gold;">Opening Hours</h2>
